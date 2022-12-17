@@ -14,7 +14,7 @@ namespace LightGBM {
 /*! \brief Declaration for some static members */
 std::vector<double> DCGCalculator::label_gain_;
 std::vector<double> DCGCalculator::discount_;
-const data_size_t DCGCalculator::kMaxPosition = 10000;
+const data_size_t DCGCalculator::kMaxPosition = 100000;
 
 
 void DCGCalculator::DefaultEvalAt(std::vector<int>* eval_at) {
